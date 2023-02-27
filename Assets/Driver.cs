@@ -14,5 +14,6 @@ public class Driver : MonoBehaviour
     void Update()
     {
         transform.Rotate(0, 0, 0.1f);
+        transform.Translate(new Vector3(0, 1, 0) * Time.deltaTime);
     }
 }
